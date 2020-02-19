@@ -34,11 +34,3 @@
 -l, --lessons: download only listed lessons, e.g.: "1-5, 7, 10, 12-15" or 3-7,9,11,15-20
 ```
 
-### How to videos:
-
-[Download (without git) free courses](https://www.youtube.com/watch?v=-sFqEquzMbE)
-
-# Authors:
-
--   [alekseylovchikov](https://github.com/alekseylovchikov)
--   [SergeiKaptelin](https://github.com/SergeiKaptelin)
