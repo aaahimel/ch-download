@@ -28,13 +28,13 @@ const getToken = require('./src/download/getToken');
 function printHeader() {
   console.log('#############################'.green);
   console.log(`###  CH DOWNLOADER ${pkg.version}  ###`.green);
-  console.log('### this is alpha version ###'.toUpperCase().green);
+  console.log('### @whi5tLe_bL0w3R ###'.toUpperCase().green);
   console.log('#############################\n'.green);
 }
 
 function checkNewVersion(startDownloading) {
   const options = {
-    repo: 'alekseylovchikov/ch-download',
+    repo: 'aaahimel/ch-download',
     currentVersion: pkg.version,
     includePreReleases: true
   };
@@ -47,7 +47,7 @@ function checkNewVersion(startDownloading) {
       console.log('Details here: ' + update.html_url);
     }
 
-    console.log('Starting app...\n');
+    console.log('Script is running Chill!...\n');
     startDownloading();
   });
 }
@@ -89,7 +89,7 @@ function runGetVideos(token) {
       if (data.urlMaterials !== undefined) {
         downloadMaterials(data.urlMaterials, downloadFolder);
       }
-      console.log('Start download videos, please wait...');
+      console.log('Ripping contents, please wait...');
       downloadVideos(logger, videos, downloadFolder, lessonNumbers);
     })
     .catch(err => console.log(`${err}`.red));
